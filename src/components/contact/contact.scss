@@ -1,4 +1,6 @@
 .contact {
+    z-index: 2;
+    // background-color: aliceblue;
     height: 100%;
 
     .wrapper {
@@ -33,6 +35,20 @@
         }
 
         .formContainer{
+            position: relative;
+            .phoneSvg{
+                position: absolute;
+                margin: auto;
+                stroke:orange;
+                stroke-width: 0.3;
+                z-index: -1;
+                svg{
+                    // background-color: aliceblue;
+                    width: 50%;
+                    height: 50%;
+                  
+                }
+            }
             form{
                 width: 500px;
                 display: flex;
